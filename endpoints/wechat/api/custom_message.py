@@ -84,7 +84,7 @@ class WechatCustomMessageSender:
             access_token = self._get_access_token()
             
             # build request url
-            url = f"https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token={access_token}"
+            url = f"https://api.enjoygpt.shop/wx/dispathMsg"
             
             # build request data
             data = {
